@@ -90,11 +90,13 @@ first = () =>{
 }
 
 next = () =>{
+  if (Number(btn5.innerText)<101) {
   btn1.innerHTML = Number(btn1.innerText)+5;
   btn2.innerHTML = Number(btn2.innerText)+5;
   btn3.innerHTML = Number(btn3.innerText)+5;
   btn4.innerHTML = Number(btn4.innerText)+5;
   btn5.innerHTML = Number(btn5.innerText)+5;
+  }
 }
 
 prev = () =>{
