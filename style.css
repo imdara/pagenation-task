@@ -1,0 +1,13 @@
+.container {
+    text-align: center;
+}
+
+th,td,body {
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+button {
+    margin-left: 1px;
+}
